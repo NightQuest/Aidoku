@@ -97,6 +97,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 "Library.updateInterval": "daily",
                 "Library.skipTitles": ["hasUnread", "completed", "notStarted"],
                 "Library.excludedUpdateCategories": [String](),
+                "Library.upscaleOnDownload": false,
                 "Library.updateOnlyOnWifi": true,
                 "Library.refreshMetadata": false,
 

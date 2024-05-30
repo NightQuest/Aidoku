@@ -201,6 +201,7 @@
 "SKIP_TITLES" = "Skip Titles";
 "ONLY_UPDATE_ON_WIFI" = "Only Update on Wi-Fi";
 "ONLY_DOWNLOAD_ON_WIFI" = "Only Download on Wi-Fi";
+"UPSCALE_ON_DOWNLOAD" = "Upscale on Download";
 "EXCLUDED_CATEGORIES" = "Excluded Categories";
 "REFRESH_METADATA" = "Refresh Metadata";
 "NEVER" = "Never";

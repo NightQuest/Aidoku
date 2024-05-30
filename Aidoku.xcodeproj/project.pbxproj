@@ -328,6 +328,10 @@
 		FBFA43AD2799DD110065A445 /* ReaderSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFA43AC2799DD110065A445 /* ReaderSliderView.swift */; };
 		FBFDD40327838AB90055ED9F /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFDD40227838AB90055ED9F /* Sequence.swift */; };
 		FBFDD40427838AB90055ED9F /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFDD40227838AB90055ED9F /* Sequence.swift */; };
+		FC1C7C2B2C091D8300CC90E8 /* UpscaleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1C7C2A2C091D8300CC90E8 /* UpscaleImage.swift */; };
+		FC1C7C2C2C091D8300CC90E8 /* UpscaleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1C7C2A2C091D8300CC90E8 /* UpscaleImage.swift */; };
+		FC1C7C312C0922C400CC90E8 /* realesrganAnime512.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = FC1C7C302C0922C400CC90E8 /* realesrganAnime512.mlpackage */; };
+		FC1C7C322C0922C400CC90E8 /* realesrganAnime512.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = FC1C7C302C0922C400CC90E8 /* realesrganAnime512.mlpackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -600,6 +604,8 @@
 		FBFAC3BB2996B292004D8489 /* af */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = af; path = af.lproj/Localizable.strings; sourceTree = "<group>"; };
 		FBFAC3BC2996B2CB004D8489 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Localizable.strings; sourceTree = "<group>"; };
 		FBFDD40227838AB90055ED9F /* Sequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sequence.swift; sourceTree = "<group>"; };
+		FC1C7C2A2C091D8300CC90E8 /* UpscaleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpscaleImage.swift; sourceTree = "<group>"; };
+		FC1C7C302C0922C400CC90E8 /* realesrganAnime512.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = realesrganAnime512.mlpackage; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1368,11 +1374,13 @@
 		FBF9DC0328205FAD0056FA9A /* Downloads */ = {
 			isa = PBXGroup;
 			children = (
+				FC1C7C302C0922C400CC90E8 /* realesrganAnime512.mlpackage */,
 				FBE7813128308DCA0038C0E3 /* Models */,
 				FBF9DC0428205FCE0056FA9A /* DownloadManager.swift */,
 				FBE7812B282F533C0038C0E3 /* DownloadQueue.swift */,
 				FBE781332830A34B0038C0E3 /* DownloadTask.swift */,
 				FBE78128282F481A0038C0E3 /* DownloadCache.swift */,
+				FC1C7C2A2C091D8300CC90E8 /* UpscaleImage.swift */,
 			);
 			path = Downloads;
 			sourceTree = "<group>";
@@ -1561,6 +1569,7 @@
 				FB4EEBCA27A35171005081A3 /* HistoryObject.swift in Sources */,
 				48177B942B75F5E700AD41B4 /* MangaView.swift in Sources */,
 				FB6E34C8279DF76300BFE54B /* MangaGridFlowLayout.swift in Sources */,
+				FC1C7C2B2C091D8300CC90E8 /* UpscaleImage.swift in Sources */,
 				FB72501C27CAACC00037F1C9 /* BackupChapter.swift in Sources */,
 				FB716E02283DD6BE00F1BB5D /* LogViewController.swift in Sources */,
 				FB4EEBC427A34ED4005081A3 /* ChapterObject.swift in Sources */,
@@ -1744,6 +1753,7 @@
 				FB4ADC6C2810ECD000F6D7FB /* SourceListsViewController.swift in Sources */,
 				FBD6A4052857AF2C007116C9 /* UIImage.swift in Sources */,
 				FB72500B27CA8DED0037F1C9 /* BackupsViewController.swift in Sources */,
+				FC1C7C312C0922C400CC90E8 /* realesrganAnime512.mlpackage in Sources */,
 				FBED231D27BAD66C0095D0C0 /* FilterCell.swift in Sources */,
 				FB1B51B128E35B2900D3CE0E /* ReaderWebtoonViewController.swift in Sources */,
 				FB05F869296499DE00D1EA2D /* CoreDataManager+Source.swift in Sources */,
@@ -1838,6 +1848,7 @@
 				FB30D583296CC0FE006B03A7 /* HistoryManager.swift in Sources */,
 				FBE781352830A34B0038C0E3 /* DownloadTask.swift in Sources */,
 				FB7B7EDB278CEA6A001E6EAF /* FileManager.swift in Sources */,
+				FC1C7C2C2C091D8300CC90E8 /* UpscaleImage.swift in Sources */,
 				FB0CAA6128A998880024561A /* Manga.swift in Sources */,
 				FB72501427CAAC9F0037F1C9 /* Backup.swift in Sources */,
 				FB4EEBC527A34ED4005081A3 /* ChapterObject.swift in Sources */,
@@ -1847,6 +1858,7 @@
 				FB716E00283DA2D900F1BB5D /* LogStore.swift in Sources */,
 				FB0CAA5C28A998650024561A /* CoreDataManager+Category.swift in Sources */,
 				FB7B7E962787740A001E6EAF /* WasmJson.swift in Sources */,
+				FC1C7C322C0922C400CC90E8 /* realesrganAnime512.mlpackage in Sources */,
 				FB6340B4278F89930072A2A2 /* Filter.swift in Sources */,
 				FB0C088D280E4D1C00A7332B /* DeepLink.swift in Sources */,
 				FB7B7ED5278CE692001E6EAF /* Source.swift in Sources */,
@@ -2057,8 +2069,8 @@
 				CODE_SIGN_ENTITLEMENTS = iOS/iOS.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JQHQ3QJ4Q2;
 				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = JQHQ3QJ4Q2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
@@ -2099,8 +2111,8 @@
 				CODE_SIGN_ENTITLEMENTS = iOS/iOS.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JQHQ3QJ4Q2;
 				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = JQHQ3QJ4Q2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iOS/Info.plist;

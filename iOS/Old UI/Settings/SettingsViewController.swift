@@ -195,6 +195,11 @@ class SettingsViewController: SettingsTableViewController {
                 ),
                 SettingItem(
                     type: "switch",
+                    key: "Library.upscaleOnDownload",
+                    title: NSLocalizedString("UPSCALE_ON_DOWNLOAD", comment: "")
+                ),
+                SettingItem(
+                    type: "switch",
                     key: "Library.refreshMetadata",
                     title: NSLocalizedString("REFRESH_METADATA", comment: "")
                 )

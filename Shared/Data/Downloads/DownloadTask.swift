@@ -121,6 +121,12 @@ actor DownloadTask: Identifiable {
             } else if let text = page.text, let data = text.data(using: .utf8) {
                 try? data.write(to: tmpDirectory.appendingPathComponent(pageNumber).appendingPathExtension("txt"))
             }
+
+            if UserDefaults.standard.bool(forKey: "Library.upscaleOnDownload") {
+                let upscaledData = try? await upscale(tmpDirectory.appendingPathComponent(pageNumber).appendingPathExtension("png"))
+                try? FileManager.default.removeItem(at: tmpDirectory.appendingPathComponent(pageNumber).appendingPathExtension("png"))
+                try? upscaledData?.write(to: tmpDirectory.appendingPathComponent(pageNumber).appendingPathExtension("jpg"))
+            }
             currentPage += 1
         }
 
