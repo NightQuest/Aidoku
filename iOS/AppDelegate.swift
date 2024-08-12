@@ -100,6 +100,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 "Library.upscaleOnDownload": false,
                 "Library.updateOnlyOnWifi": true,
                 "Library.refreshMetadata": false,
+                "Library.deleteDownloadAfterReading": false,
 
                 "Browse.languages": ["multi"] + Locale.preferredLanguages.map { Locale(identifier: $0).languageCode },
                 "Browse.updateCount": 0,

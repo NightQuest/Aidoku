@@ -425,6 +425,9 @@
 		FB3F49E42B7C3BA400D3CC75 /* ChapterSortOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterSortOption.swift; sourceTree = "<group>"; };
 		FB3F49E72B7C3C2B00D3CC75 /* ChapterFilterOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterFilterOption.swift; sourceTree = "<group>"; };
 		FB3F49EA2B7C6B7700D3CC75 /* ChapterFlagMask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterFlagMask.swift; sourceTree = "<group>"; };
+		FB40CD062C6845A20018AE3C /* km */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = km; path = km.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB40CD072C6845D70018AE3C /* sw */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sw; path = sw.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB40CD082C6845F30018AE3C /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Localizable.strings; sourceTree = "<group>"; };
 		FB42750A295FB7B400131377 /* BrowseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseViewController.swift; sourceTree = "<group>"; };
 		FB42750D295FB86600131377 /* BaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
 		FB42750F295FBAEA00131377 /* BrowseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseViewModel.swift; sourceTree = "<group>"; };
@@ -1496,6 +1499,9 @@
 				ml,
 				nl,
 				sr,
+				km,
+				sw,
+				th,
 			);
 			mainGroup = FB1B4825277CE18D0056D02C;
 			packageReferences = (
@@ -1925,6 +1931,9 @@
 				FB82E9662BF07F57006A9314 /* ml */,
 				FB82E9672BF07F81006A9314 /* nl */,
 				FB82E9682BF07FA5006A9314 /* sr */,
+				FB40CD062C6845A20018AE3C /* km */,
+				FB40CD072C6845D70018AE3C /* sw */,
+				FB40CD082C6845F30018AE3C /* th */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -2069,8 +2078,8 @@
 				CODE_SIGN_ENTITLEMENTS = iOS/iOS.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = JQHQ3QJ4Q2;
+				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
@@ -2089,9 +2098,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.6.8;
-				OTHER_LDFLAGS = "-ld_classic";
 				PRODUCT_BUNDLE_IDENTIFIER = ninja.subtle.Aidoku;
+				MARKETING_VERSION = 0.6.9;
 				PRODUCT_NAME = Aidoku;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -2111,8 +2119,8 @@
 				CODE_SIGN_ENTITLEMENTS = iOS/iOS.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = JQHQ3QJ4Q2;
+				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
@@ -2131,9 +2139,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.6.8;
-				OTHER_LDFLAGS = "-ld_classic";
 				PRODUCT_BUNDLE_IDENTIFIER = ninja.subtle.Aidoku;
+				MARKETING_VERSION = 0.6.9;
 				PRODUCT_NAME = Aidoku;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
